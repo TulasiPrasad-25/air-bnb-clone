@@ -1,0 +1,263 @@
+body{
+    height: 2000px;
+}
+.main-logo{
+    width: 110px;
+    position: absolute;
+    top: 7px;
+    left: 90px;
+    cursor: pointer;
+}
+.stay-exp{
+    position: absolute;
+    left: 43%;
+    top: 20px;
+    color: grey;
+}
+.top-btn{
+    font-size: large;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 10px;
+    background-color: white;
+    color: grey;
+}
+.top-btn:hover{
+    background-color: rgb(250, 242, 248);
+    cursor: pointer;
+}
+.airbnb-home{
+    position: absolute;
+    left: 72%;
+    top: 20px;
+}
+.nav{
+    width: 25px;
+}
+.profile-logo{
+    position: absolute;
+    left: 85%;
+    top: 20px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: solid grey 1px;
+}
+.profile-logo:hover{
+    background-color: rgb(250, 242, 248);
+    box-shadow: 0px 2px 2px 0px grey;
+    transition: 0.5s;
+}
+.main-btn-place{
+    position: absolute;
+    top: 13%;
+    left: 22%;
+    border-radius: 50px;
+    width: 55%;
+    height: 71px;
+    border: none;
+    box-shadow: 10px;
+}
+.dest-date-btn{
+    margin: 0px 0px 0px 0px;
+    padding-top: 5px;
+    font-size: large;
+    border: none;
+    padding: 3px;
+    padding-bottom: 0px;
+    background-color: white;
+    cursor: pointer;
+    width: 190px;
+}
+.dest-date-btn:hover{
+    background-color: rgb(213, 209, 212);
+    box-shadow: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.text{
+    padding: 0px 10px 5px 10px;
+    color: grey;
+    cursor: pointer;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+.search-logo{
+    width: 50px;
+    cursor: pointer;
+}
+.search-logo:hover{
+    opacity: 0.5;   
+}
+.all-logos{
+    position: absolute;
+    left: 65px;
+    width: 70%;
+}
+.imgs{
+    width: 35px;
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+.imgs:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.names-logos{
+    margin-top: 0px;
+    margin-left: 70px;
+    font-size: small;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    cursor: pointer;
+}
+.arrow-btn{
+    position: absolute;
+    top: 29%;
+    left: 66%;
+    height: 43px;
+    background-color: white;
+    border: solid grey 1px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.arrow-btn:hover{
+    background-color: rgb(250, 242, 248);
+}
+.filter-btn{
+    position: absolute;
+    height: 40px;
+    left: 71%;
+    top: 29%;
+    background-color: white;
+    border: solid grey 1px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: medium;
+    
+}
+.filter-btn:hover{
+    background-color: rgb(250, 242, 248);
+    border: solid black 1px;
+    transform: 0.3s;
+}
+.filter-font{
+    margin-left: 10px;
+    padding: 0px 5px 10px opx;
+}
+.tax-btn{
+    position: absolute;
+    height: 42px;
+    left: 79%;
+    top: 29%;
+    background-color: white;
+    border: solid grey 1px;
+    border-radius: 7px;
+    height: 40px;
+    width: 210px;
+    font-size: medium;
+}
+.tax-btn:hover{
+    background-color: rgb(250, 242, 248);
+}
+.small-logos{
+    display: inline-block;
+    justify-content: space-evenly;
+    max-width: 300px;
+    height: 50px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.small-logos img{
+    max-width: 30px;
+    height: auto;
+}
+.small-logos img:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+    cursor: pointer;  
+}
+.small-logos p{
+    margin-top: 0px;
+    font-size: small;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+    color: grey;
+    line-height: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card {
+    display: inline-block;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 15px;
+    max-width: 330px;
+    text-align: start;
+    margin: 10px 0px 0px 10px;
+}
+strong{
+    color: black;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.card h4 {
+    font-size: 1.5em;
+    margin: 2px 0px 0px 10px;
+    cursor: pointer;
+}
+.card p {
+    font-size: 1em;
+    color: #555;
+    margin: 3px 0px 2px 10px;
+    
+}
+.show-more{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.show-btn{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 40px;
+    width: 150px;
+    border: solid grey 1px;
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: rgb(36, 36, 74);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 670px;
+    margin-top: 10px;
+}
+.show-btn:hover{
+    background-color: rgb(47, 47, 126);
+    cursor: pointer;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(237, 236, 236);
+    max-width: 100%;
+    height: 350px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-footer p{
+    cursor: pointer;
+}
